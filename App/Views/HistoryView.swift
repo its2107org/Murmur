@@ -74,7 +74,7 @@ private struct HistoryRow: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: 4) {
-            Text(item.text)
+            Text(item.text.split(whereSeparator: \.isNewline).joined(separator: " "))
                 .lineLimit(2)
             HStack(spacing: 6) {
                 Image(systemName: item.style.symbol)

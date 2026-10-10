@@ -69,7 +69,7 @@ struct FinishDictationIntent: AppIntent {
 
 struct TidyTextIntent: AppIntent {
     static let title: LocalizedStringResource = "Tidy Text"
-    static let description = IntentDescription("Tidies some text on this iPhone with Apple Intelligence, optionally as an email, message or bullet points.")
+    static let description = IntentDescription("Tidies some text on this device, optionally as an email, message or bullet points.")
 
     @Parameter(title: "Text", inputOptions: String.IntentInputOptions(multiline: true))
     var text: String

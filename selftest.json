@@ -1,0 +1,58 @@
+[
+  {
+    "input" : "Hi John, see you Tuesday at three. Format this as an email.",
+    "ok" : "yes",
+    "style" : "Email",
+    "text" : "Hi John, see you Tuesday at three."
+  },
+  {
+    "input" : "Format as email. Hi John, running late.",
+    "ok" : "yes",
+    "style" : "Email",
+    "text" : "Hi John, running late."
+  },
+  {
+    "input" : "Let me know if you can make a list.",
+    "ok" : "yes",
+    "style" : "Tidied",
+    "text" : "Let me know if you can make a list."
+  },
+  {
+    "input" : "The meeting will be shorter.",
+    "ok" : "yes",
+    "style" : "Tidied",
+    "text" : "The meeting will be shorter."
+  },
+  {
+    "input" : "Milk, eggs, bread. Bullet points please.",
+    "ok" : "yes",
+    "style" : "Bullet points",
+    "text" : "Milk, eggs, bread."
+  },
+  {
+    "input" : "Okay, make it more formal. Hey Sarah, can't make it tonight.",
+    "ok" : "yes",
+    "style" : "Formal",
+    "text" : "Hey Sarah, can't make it tonight."
+  },
+  {
+    "input" : "I'll make it to the party tonight, see you there. Make it a text message.",
+    "ok" : "yes",
+    "style" : "Message",
+    "text" : "I'll make it to the party tonight, see you there."
+  },
+  {
+    "input" : "We discussed the deal and next steps. Turn this into meeting notes.",
+    "ok" : "yes",
+    "style" : "Notes",
+    "text" : "We discussed the deal and next steps."
+  },
+  {
+    "input" : "basic clean",
+    "ok" : "yes",
+    "text" : "So I think we should go.\n\nNext point"
+  },
+  {
+    "summary" : "all passed"
+  }
+]

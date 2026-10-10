@@ -19,7 +19,7 @@ struct DictateWidget: Widget {
     var body: some WidgetConfiguration {
         StaticConfiguration(kind: "MurmurDictate", provider: DictateProvider()) { _ in
             DictateWidgetView()
-                .containerBackground(for: .widget) { accent.gradient }
+                .containerBackground(accent.gradient, for: .widget)
                 .widgetURL(URL(string: "murmur://dictate"))
         }
         .configurationDisplayName("Dictate")
